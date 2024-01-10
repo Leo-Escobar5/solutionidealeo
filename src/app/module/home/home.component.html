@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Navbar con Carousel</title>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-transparent">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; margin-left: 1100px;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <img src="assets/solution.png" alt="Solution" class="solution-img">
+      </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="assets/ing1.jpg" class="d-block w-100" style="height: 850px;" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="assets/ing2.jpg" class="d-block w-100" style="height: 850px;" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="assets/ing3.jpg" class="d-block w-100" style="height: 850px;" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <br>
+
+    <div class="container mt-5">
+      <div class="card text-dark border-0 bg-transparent">
+        <h2 class="card-title" style="color: #78660C;">Solution Idea</h2>
+        <p class="card-text">
+          Provides quality environmental, health and safety consulting services. We have learned to serve the worldï¿½s largest companies as well as medium national enterprises and successful small fast-growing business. Our professionals are experienced internationally and strive to deliver seamless, consistent services wherever our clients operate, one project at a time. We are characterized by our ability to develop multidisciplinary solutions for our clients and to provide effective services to meet their most pressing needs.
+        </p>
+        <p class="cardt-text"> 
+          Our group provides to our clients a combined experience of more than 40 years in EH&S, including extensive knowledge of applicable Mexican EH&S regulations.  We posses ample know-how that allows us to interact effectively with Mexican and U.S. regulatory agencies.  Our firm is well known with SEMARNAT (Ministry of the Environment, Natural Resources), PROFEPA (Federal Environmental Protection Attorney's Office), INE (Mexican Ecology Institute), STPS (Mexican Ministry of Labor), CNA (National Waters Commission), and the Municipal and State EH&S agencies.  In the U.S., our firm has efficiently worked with EPA, and other state and local agencies.
+        </p>
+      </div>
+    </div>
+ 
+    <div class="container mt-5">
+      <div class="card text-dark border-0 bg-transparent">
+        <h2 class="card-title" style="color: #78660C;">Our People</h2>
+        <p class="card-text">
+          The environmental, health and safety practice of Solution Idea is formed by professionals with broad experience in EH&S.  They apply best available standards and procedures using a pragmatic and cost effective approach to complete every assignment .Our team of associated professionals can account for decades of years of experience in the environmental industry, specialized training in the Environmental, Health & Safety fields, and other technical capabilities.  They can follow U.S., Mexican and/or corporate protocols per project requirements.        
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="wrap">
+      <div class="tarjeta-wrap">
+        <div class="tarjeta">
+          <div class="adelante card1"></div>
+          <div class="atras">
+            <p>Mision</p>
+          </div>
+        </div>
+      </div>
+      <div class="tarjeta-wrap">
+        <div class="tarjeta">
+          <div class="adelante card2"></div>
+          <div class="atras">
+            <p>Vision</p>
+          </div>
+        </div>
+      </div>
+      <div class="tarjeta-wrap">
+        <div class="tarjeta">
+          <div class="adelante card3"></div>
+          <div class="atras">
+            <p>Valores</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="card mb-3 border-0 bg-transparent">
+      <img src="assets/Cintillo.png" class="card-img-top" style="height: 220px;" alt="...">
+      <div class="card-body">
+        <img src="assets/solution.png" alt="Solution" style="margin-right: 5px; width: 300px;">
+        <p class="card-text" style="margin-left: 45px;">
+          <img src="assets/correo-electronico 1.png" alt="Icono" style="width: 20px; height: 20px; margin-right: 5px;">
+          Solutionidea@gmail.com
+        </p>  
+        <p class="card-text" style="margin-left: 45px;">
+          <img src="assets/llamada-telefonica 1.png" alt="Icono" style="width: 20px; height: 20px; margin-right: 5px;">
+          477 123 456 78
+        </p>  
+        <div style="margin-left: 20px; margin-right: 20px;">
+          <hr style="width: calc(100% - 10px); border: 2px solid black;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-GL2wq7GtpR91G7Zqzjq2OQcd8iC7UZ8zt7I54kI3GR8Y4J5oLTp6cXdM3h6kad2P"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"
+    integrity="sha384-pzjw8j+7BDd0sQk0s3jF/xlGtA0U9M9ZzJVpFeG5sr9jpbE70Iz+3Z4dpu2H6A6J"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
